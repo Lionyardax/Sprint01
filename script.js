@@ -162,6 +162,7 @@ function cuadroTxt(palabra) {
     document.write('</div><div id="divDescarte"><textarea id="descarte" maxlenght="10" readonly></textarea></div>');
     document.write('<div id=acciones><button id="nuevo" onclick="nuevo();">Nuevo Juego</button><button id="Rendirse" onclick="perdiste();">Rendirse</button></div>');
     window.addEventListener('click',document.getElementById('descarte'.focus));
+    window.addEventListener('load',document.getElementById('descarte'.focus));
     return arregloPalabra;
     
 }
